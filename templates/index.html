@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book</title>
+</head>
+<body>
+    <h1>ADDRESS BOOK DATABASE</h1>
+    <form action="/save" method="post">
+        <label for="addressbookname">AddressBook Name:</label>
+        <input type="text" id="addressbookname" name="addressbookname" value="AddressBookDataBase" required><br><br>
+
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="secondname">Second Name:</label>
+        <input type="text" id="secondname" name="secondname" required><br><br>
+
+        <label for="addressline1">Address (Line 1):</label>
+        <input type="text" id="addressline1" name="addressline1" required><br><br>
+
+        <label for="addressline2">Address (Line 2):</label>
+        <input type="text" id="addressline2" name="addressline2" required><br><br>
+
+        <label for="addressline3">Address (Line 3):</label>
+        <input type="text" id="addressline3" name="addressline3" required><br><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="state">State or Province:</label>
+        <input type="text" id="state" name="state" required><br><br>
+
+        <label for="zip">Postal (Zip) Code:</label>
+        <input type="text" id="zip" name="zip" required><br><br>
+
+        <label for="homephe">Home Phone:</label>
+        <input type="text" id="homephe" name="homephe" required><br><br>
+
+        <label for="workphe">Work Phone:</label>
+        <input type="text" id="workphe" name="workphe" required><br><br>
+
+        <label for="mobile">Mobile:</label>
+        <input type="text" id="mobile" name="mobile" required><br><br>
+
+        <label for="email">Primary Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <label for="email2">Secondary Email:</label>
+        <input type="text" id="email2" name="email2" required><br><br>
+
+        <label for="notes">Notes:</label>
+        <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
